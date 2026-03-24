@@ -36,7 +36,7 @@ export default function PortfolioSection() {
               transition={{ duration: 0.7 }}
               viewport={{ once: true }}
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[300px] md:h-[500px] lg:h-[600px] hover:scale-[1.01] transition-all duration-700">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.01] transition-all duration-700">
                 <img
                   alt="Kitchen After Restoration"
                   className="w-full h-full object-cover"
