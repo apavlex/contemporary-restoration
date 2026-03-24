@@ -40,7 +40,7 @@ export default function PortfolioSection() {
                 <img
                   alt="Kitchen After Restoration"
                   className="w-full h-full object-cover"
-                  src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/d79e1a341_IMG_2886.jpg"
+                  src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/990a5105b_IMG_0230.jpg"
                 />
                 <div className="absolute bottom-6 left-6 lg:bottom-10 lg:left-10 bg-white/90 backdrop-blur-sm text-on-surface text-xs lg:text-sm font-bold uppercase tracking-widest px-6 py-2.5 lg:px-8 lg:py-3 rounded-full shadow-lg">
                   Final Result
@@ -66,7 +66,7 @@ export default function PortfolioSection() {
                   <img
                     alt="Kitchen Before Restoration"
                     className="w-full h-full object-cover"
-                    src={KITCHEN_BEFORE}
+                    src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/e7f931518_IMG_2886.jpg"
                   />
                   <div className="absolute top-4 right-4 bg-primary text-white text-[10px] font-bold uppercase tracking-widest px-4 py-1.5 rounded-full">
                     Before Restoration
