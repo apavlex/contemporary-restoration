@@ -2,10 +2,12 @@ import { motion } from 'framer-motion';
 
 const KITCHEN_AFTER = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/a71b73b8d_generated_98f27aa8.png";
 const KITCHEN_BEFORE = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/61e164016_generated_f848c723.png";
-const EXTERIOR_AFTER = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/9dabd8623_generated_f045b6a9.png";
-const EXTERIOR_BEFORE = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/93846bc35_generated_d9b12706.png";
-const KITCHEN_AFTER_2 = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/4b2ce33d3_generated_323e85b4.png";
-const KITCHEN_BEFORE_2 = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/f6fc5d446_generated_67f5c4b2.png";
+const EXTERIOR_AFTER = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/386d0721f_IMG_0199.jpg";
+const EXTERIOR_BEFORE = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/1a92422e2_IMG_0198.jpg";
+const KITCHEN_AFTER_2 = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/7cfcf4077_IMG_0202.jpg";
+const KITCHEN_BEFORE_2 = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/92e4cdef9_IMG_0200.jpg";
+const BATHROOM_AFTER = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/d8dadaca1_IMG_0211.jpg";
+const BATHROOM_BEFORE = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/b839df2df_IMG_0210.jpg";
 
 export default function PortfolioSection() {
   return (
@@ -92,12 +94,15 @@ export default function PortfolioSection() {
                 <p className="text-on-surface-variant leading-relaxed text-base lg:text-lg mb-6 lg:mb-8">
                   A complete revitalization of a classic residence. This project spanned from structural exterior repairs and fresh siding to a total interior overhaul with modern, high-efficiency finishes.
                 </p>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="relative rounded-xl overflow-hidden h-32 lg:h-40 shadow-md">
+                <div className="grid grid-cols-3 gap-3">
+                  <div className="relative rounded-xl overflow-hidden h-28 lg:h-36 shadow-md">
                     <img alt="Exterior Before" className="w-full h-full object-cover" src={EXTERIOR_BEFORE} />
                   </div>
-                  <div className="relative rounded-xl overflow-hidden h-32 lg:h-40 shadow-md">
+                  <div className="relative rounded-xl overflow-hidden h-28 lg:h-36 shadow-md">
                     <img alt="Kitchen Before" className="w-full h-full object-cover" src={KITCHEN_BEFORE_2} />
+                  </div>
+                  <div className="relative rounded-xl overflow-hidden h-28 lg:h-36 shadow-md">
+                    <img alt="Bathroom Before" className="w-full h-full object-cover" src={BATHROOM_BEFORE} />
                   </div>
                 </div>
               </div>
@@ -110,12 +115,15 @@ export default function PortfolioSection() {
               transition={{ duration: 0.7 }}
               viewport={{ once: true }}
             >
-              <div className="grid grid-cols-2 gap-4 lg:gap-6 h-[400px] lg:h-[700px]">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl h-full translate-y-8 lg:translate-y-12">
-                  <img alt="Exterior After" className="w-full h-full object-cover" src={EXTERIOR_AFTER} />
+              <div className="grid grid-cols-2 gap-4 lg:gap-6">
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl col-span-2">
+                  <img alt="Exterior After" className="w-full h-64 lg:h-96 object-cover" src={EXTERIOR_AFTER} />
                 </div>
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl h-full">
-                  <img alt="Kitchen After" className="w-full h-full object-cover" src={KITCHEN_AFTER_2} />
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <img alt="Kitchen After" className="w-full h-48 lg:h-64 object-cover" src={KITCHEN_AFTER_2} />
+                </div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <img alt="Bathroom After" className="w-full h-48 lg:h-64 object-cover" src={BATHROOM_AFTER} />
                 </div>
               </div>
             </motion.div>
