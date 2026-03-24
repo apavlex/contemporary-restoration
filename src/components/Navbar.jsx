@@ -14,13 +14,8 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline/30">
       <div className="flex justify-between items-center px-6 lg:px-8 py-4 max-w-7xl mx-auto">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-white font-headline font-extrabold text-lg">CH</span>
-          </div>
-          <div className="text-lg font-extrabold text-primary font-headline tracking-tight uppercase">
-            Contemporary Homes
-          </div>
+        <div className="flex items-center">
+          <img src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/205a5bbb9_screen.png" alt="Contemporary Homes" className="h-14 w-auto" />
         </div>
 
         <div className="hidden md:flex items-center space-x-10">
