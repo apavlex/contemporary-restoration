@@ -30,13 +30,13 @@ export default function HeroSection() {
             </div>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold text-on-surface leading-[1] mb-8">
-              Water and Fire Property Restoration{' '}
+              Property Restoration{' '}
               <br />
               <span className="text-primary italic font-light">&amp; Remodeling</span>
             </h1>
 
             <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl">
-              Industrial-grade restoration for homes and businesses. Our elite response team stops the damage before it spreads, ensuring your space returns to its natural beauty.
+              Expert water and fire damage restoration for homes and businesses. Our elite response team stops the damage before it spreads, ensuring your space returns to its natural beauty.
             </p>
 
             <div className="flex flex-wrap gap-4">
