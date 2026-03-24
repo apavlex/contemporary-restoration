@@ -30,9 +30,9 @@ export default function HeroSection() {
             </div>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold text-on-surface leading-[1] mb-8">
-              24/7 Property Restoration{' '}
+              Water and Fire Property Restoration{' '}
               <br />
-              <span className="text-primary italic font-light">&amp; Remodeling</span>
+              &amp; <span className="text-primary italic font-light">Remodeling</span>
             </h1>
 
             <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl">
