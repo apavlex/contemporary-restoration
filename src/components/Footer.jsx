@@ -62,11 +62,17 @@ export default function Footer() {
         <p className="text-white/40 text-sm">
           © 2024 Contemporary Homes Restoration. IICRC Certified Firm.
         </p>
-        <div className="flex items-center space-x-3">
-          <ShieldCheck className="w-5 h-5 text-primary" />
-          <span className="text-[10px] text-white/60 font-bold uppercase tracking-widest">
-            Fully Licensed &amp; Insured
-          </span>
+        <div className="flex items-center gap-4">
+          <div className="flex items-center space-x-3">
+            <ShieldCheck className="w-5 h-5 text-primary" />
+            <span className="text-[10px] text-white/60 font-bold uppercase tracking-widest">
+              Fully Licensed &amp; Insured
+            </span>
+          </div>
+          <span className="text-white/20">·</span>
+          <a href="https://AdHello.ai" target="_blank" rel="noopener noreferrer" className="text-[10px] text-white/40 hover:text-white/70 transition-colors uppercase tracking-widest">
+            Designed by AdHello.ai
+          </a>
         </div>
       </div>
     </footer>
