@@ -11,14 +11,14 @@ export default function TestimonialSection() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
+            
             <div className="space-y-6">
               <h2 className="text-4xl lg:text-5xl font-headline font-extrabold text-on-surface">
                 Satisfaction Guaranteed
               </h2>
-              <p className="text-lg lg:text-xl text-on-surface-variant leading-relaxed">
-                We don't just restore homes; we restore peace of mind. As an IICRC Certified Firm, we adhere to the highest industry standards for sanitization and structural integrity.
+              <p className="text-lg lg:text-xl text-on-surface-variant leading-relaxed">We don't just restore homes; we restore peace of mind. We adhere to the highest industry standards for sanitization and structural integrity.
+
               </p>
             </div>
           </motion.div>
@@ -28,8 +28,8 @@ export default function TestimonialSection() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
+            
             <div className="absolute -top-12 -left-12 w-24 h-24 bg-primary/10 rounded-full blur-3xl" />
             <div className="absolute -bottom-12 -right-12 w-32 h-32 bg-secondary/10 rounded-full blur-3xl" />
             <div className="bg-white p-10 lg:p-16 rounded-2xl shadow-xl relative border border-outline/10">
@@ -54,6 +54,6 @@ export default function TestimonialSection() {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
