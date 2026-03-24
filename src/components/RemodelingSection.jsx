@@ -15,10 +15,9 @@ export default function RemodelingSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl lg:text-6xl font-headline font-extrabold text-on-surface mb-6 lg:mb-8">
-            Expert Kitchen &amp; Bathroom Remodeling
-          </h2>
-          <p className="text-lg lg:text-xl text-on-surface-variant">
+          <h2 className="text-5xl lg:text-7xl font-headline font-extrabold text-on-surface mb-6 lg:mb-8 leading-none">
+            Expert Kitchen <span className="italic font-light text-primary">&amp; Bathroom</span><br />Remodeling
+          <p className="text-xl lg:text-2xl text-on-surface-variant font-light leading-relaxed">
             From emergency recovery to aesthetic elegance. Whether we are rebuilding your home after water damage or you're ready for a long-awaited upgrade, our master craftsmen deliver specialized remodeling services.
           </p>
         </motion.div>
