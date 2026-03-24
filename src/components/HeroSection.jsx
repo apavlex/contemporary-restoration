@@ -35,14 +35,20 @@ export default function HeroSection() {
               Immediate Response
             </div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold text-on-surface leading-[1] mb-8">
-              Property Restoration{' '}
-              <br />
-              <span className="text-primary italic font-light">&amp; Remodeling</span>
+            <h1 className="font-headline leading-none mb-8">
+              <span className="block text-5xl md:text-7xl lg:text-8xl font-extrabold text-on-surface tracking-tight">
+                Property
+              </span>
+              <span className="block text-5xl md:text-7xl lg:text-8xl font-extrabold text-on-surface tracking-tight">
+                Restoration
+              </span>
+              <span className="block text-4xl md:text-6xl lg:text-7xl font-light italic text-primary mt-2">
+                &amp; Remodeling
+              </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl">
-              Expert water and fire damage restoration for homes and businesses. Our elite response team stops the damage before it spreads, ensuring your space returns to its natural beauty.
+            <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl font-body">
+              Expert <span className="font-semibold text-on-surface">water &amp; fire damage</span> restoration for homes and businesses. Our elite response team stops the damage before it spreads, ensuring your space returns to its natural beauty.
             </p>
 
             <div className="flex flex-wrap gap-4">
