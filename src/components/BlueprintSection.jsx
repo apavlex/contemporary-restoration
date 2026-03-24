@@ -35,6 +35,7 @@ export default function BlueprintSection() {
         <div className="max-w-2xl">
           <h2 className="text-5xl lg:text-7xl font-headline font-extrabold text-primary mb-6 leading-none">
             Our Restoration <span className="italic font-light">Blueprint</span>
+          </h2>
           <p className="text-on-surface-variant text-xl font-body">
             A meticulous journey from crisis to calm, handled with human care and expert precision.
           </p>

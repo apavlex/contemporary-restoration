@@ -16,6 +16,7 @@ export default function AreasSection() {
         >
           <h2 className="text-5xl lg:text-7xl font-headline font-extrabold text-on-surface mb-4 lg:mb-6 leading-none">
             Areas We <span className="italic font-light text-primary">Serve</span>
+          </h2>
           <p className="text-on-surface-variant text-xl lg:text-2xl font-light">
             Serving Portland, OR and surrounding areas with rapid response restoration units.
           </p>
