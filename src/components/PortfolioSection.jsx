@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 
-const KITCHEN_AFTER = "/__generating__/img_647ae90db9b5.png";
-const KITCHEN_BEFORE = "/__generating__/img_17fed251ddb5.png";
-const EXTERIOR_AFTER = "/__generating__/img_50d45d581009.png";
-const EXTERIOR_BEFORE = "/__generating__/img_fc209b873ba7.png";
-const KITCHEN_AFTER_2 = "/__generating__/img_6154ae19a8b5.png";
-const KITCHEN_BEFORE_2 = "/__generating__/img_d09f9d04958e.png";
+const KITCHEN_AFTER = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/a71b73b8d_generated_98f27aa8.png";
+const KITCHEN_BEFORE = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/61e164016_generated_f848c723.png";
+const EXTERIOR_AFTER = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/9dabd8623_generated_f045b6a9.png";
+const EXTERIOR_BEFORE = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/93846bc35_generated_d9b12706.png";
+const KITCHEN_AFTER_2 = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/4b2ce33d3_generated_323e85b4.png";
+const KITCHEN_BEFORE_2 = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/f6fc5d446_generated_67f5c4b2.png";
 
 export default function PortfolioSection() {
   return (

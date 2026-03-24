@@ -1,8 +1,8 @@
 import { Ruler } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const KITCHEN_IMG = "/__generating__/img_6154ae19a8b5.png";
-const BATHROOM_IMG = "/__generating__/img_62cba4db3f0d.png";
+const KITCHEN_IMG = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/4b2ce33d3_generated_323e85b4.png";
+const BATHROOM_IMG = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/f6a214250_generated_0f95b3d6.png";
 
 export default function RemodelingSection() {
   return (

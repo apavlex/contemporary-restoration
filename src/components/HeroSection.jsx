@@ -1,7 +1,7 @@
 import { Phone } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const HERO_BG = "/__generating__/img_777c9725896f.png";
+const HERO_BG = "https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/165a15a9a_generated_93c287cb.png";
 
 export default function HeroSection() {
   return (
