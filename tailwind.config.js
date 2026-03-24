@@ -4,6 +4,10 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
+  		fontFamily: {
+  			headline: ['var(--font-headline)'],
+  			body: ['var(--font-body)'],
+  		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -12,6 +16,11 @@ module.exports = {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+  			surface: 'hsl(var(--surface))',
+  			'surface-container': 'hsl(var(--surface-container))',
+  			'on-surface': 'hsl(var(--on-surface))',
+  			'on-surface-variant': 'hsl(var(--on-surface-variant))',
+  			outline: 'hsl(var(--outline))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
