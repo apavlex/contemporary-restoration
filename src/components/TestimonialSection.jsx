@@ -14,10 +14,9 @@ export default function TestimonialSection() {
             viewport={{ once: true }}>
             
             <div className="space-y-6">
-              <h2 className="text-4xl lg:text-5xl font-headline font-extrabold text-on-surface">
-                Satisfaction Guaranteed
-              </h2>
-              <p className="text-lg lg:text-xl text-on-surface-variant leading-relaxed">We don't just restore homes; we restore peace of mind. We adhere to the highest industry standards for sanitization and structural integrity.
+              <h2 className="text-5xl lg:text-7xl font-headline font-extrabold text-on-surface leading-none">
+                Satisfaction <span className="italic font-light text-primary">Guaranteed</span>
+              <p className="text-xl lg:text-2xl text-on-surface-variant leading-relaxed font-light">We don't just restore homes; we restore peace of mind. We adhere to the highest industry standards for sanitization and structural integrity.
 
               </p>
             </div>
