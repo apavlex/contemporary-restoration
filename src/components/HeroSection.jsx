@@ -13,6 +13,12 @@ export default function HeroSection() {
           src={HERO_BG}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-surface/20" />
+        {/* Fire texture — top right */}
+        <div className="absolute top-0 right-0 w-1/2 h-2/3 bg-gradient-to-bl from-orange-600/20 via-red-800/10 to-transparent mix-blend-multiply" />
+        {/* Water texture — bottom left */}
+        <div className="absolute bottom-0 left-0 w-2/3 h-1/2 bg-gradient-to-tr from-blue-700/20 via-cyan-500/10 to-transparent mix-blend-multiply" />
+        {/* Char/smoke grain overlay */}
+        <div className="absolute inset-0 opacity-[0.06]" style={{backgroundImage: 'url("https://grainy-gradients.vercel.app/noise.svg")', backgroundSize: '200px'}} />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
