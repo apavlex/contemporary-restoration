@@ -5,13 +5,8 @@ export default function Footer() {
     <footer className="bg-on-surface pt-16 lg:pt-24 pb-10 lg:pb-12 px-6 lg:px-8 text-white/80">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16 mb-14 lg:mb-20">
         <div className="space-y-5 sm:col-span-2 lg:col-span-1">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-white font-headline font-extrabold text-lg">CH</span>
-            </div>
-            <div className="text-lg font-extrabold text-white font-headline tracking-tight uppercase">
-              Contemporary Homes
-            </div>
+          <div className="flex items-center">
+            <img src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/205a5bbb9_screen.png" alt="Contemporary Homes" className="h-14 w-auto brightness-0 invert" />
           </div>
           <p className="text-white/60 text-sm leading-relaxed">
             Professional water damage restoration and mold remediation specialists. Available 24/7 for all emergencies with a commitment to quality.
