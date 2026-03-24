@@ -4,21 +4,25 @@ import { motion } from 'framer-motion';
 const steps = [
   {
     icon: Bell,
+    title: 'Emergency Assessment',
     text: 'Immediate arrival on-site to assess damage and stop the source of water infiltration. We bring calm to the chaos from the first minute.',
     progress: 'w-1/4',
   },
   {
     icon: Droplets,
+    title: 'Water Extraction',
     text: 'Water extraction and moisture mapping using advanced thermal imaging technology. We meticulously find every hidden drop.',
     progress: 'w-2/4',
   },
   {
     icon: Wind,
+    title: 'Drying & Remediation',
     text: 'Professional drying, dehumidification, and mold prevention across all surfaces. Ensuring your air and environment is pure again.',
     progress: 'w-3/4',
   },
   {
     icon: Wrench,
+    title: 'Full Restoration',
     text: 'Structural repairs and final inspection to return your property to pre-loss condition. You walk back into a home that feels like yours again.',
     progress: 'w-full',
   },
@@ -52,6 +56,7 @@ export default function BlueprintSection() {
               <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white rounded-full flex items-center justify-center mb-8 lg:mb-10 shadow-sm text-secondary">
                 <step.icon className="w-8 h-8 lg:w-10 lg:h-10" />
               </div>
+              <h4 className="text-lg font-headline font-extrabold text-on-surface mb-3">{step.title}</h4>
               <p className="text-on-surface-variant leading-relaxed">{step.text}</p>
               <div className="mt-8 lg:mt-12 h-1 w-full bg-outline/20 rounded-full relative">
                 <div className={`absolute left-0 top-0 h-full ${step.progress} bg-primary rounded-full`} />
