@@ -20,10 +20,9 @@ export default function PortfolioSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}>
           
-          <h2 className="text-4xl lg:text-6xl font-headline font-extrabold text-on-surface mb-6 lg:mb-8">
-            Restoration Portfolio
-          </h2>
-          <p className="text-lg lg:text-xl text-on-surface-variant max-w-3xl mx-auto">
+          <h2 className="text-5xl lg:text-7xl font-headline font-extrabold text-on-surface mb-6 lg:mb-8 leading-none">
+            Restoration <span className="italic font-light text-primary">Portfolio</span>
+          <p className="text-xl lg:text-2xl text-on-surface-variant max-w-3xl mx-auto font-light leading-relaxed">
             Witness the transformation from devastation to pristine restoration. Our results speak for our commitment to excellence and high-end craftsmanship.
           </p>
         </motion.div>
