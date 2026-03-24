@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
           <span className="text-white/20">·</span>
           <a href="https://AdHello.ai" target="_blank" rel="noopener noreferrer" className="text-[10px] text-white/40 hover:text-white/70 transition-colors uppercase tracking-widest">
-            Designed by AdHello.ai
+            Website Designed By AdHello.ai
           </a>
         </div>
       </div>
