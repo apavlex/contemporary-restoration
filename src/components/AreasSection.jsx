@@ -14,10 +14,9 @@ export default function AreasSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl lg:text-5xl font-headline font-extrabold text-on-surface mb-4 lg:mb-6">
-            Areas We Serve
-          </h2>
-          <p className="text-on-surface-variant text-base lg:text-lg">
+          <h2 className="text-5xl lg:text-7xl font-headline font-extrabold text-on-surface mb-4 lg:mb-6 leading-none">
+            Areas We <span className="italic font-light text-primary">Serve</span>
+          <p className="text-on-surface-variant text-xl lg:text-2xl font-light">
             Serving Portland, OR and surrounding areas with rapid response restoration units.
           </p>
         </motion.div>
