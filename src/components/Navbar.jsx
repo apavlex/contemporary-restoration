@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline/30">
-      <div className="flex justify-between items-center px-6 lg:px-8 py-4 max-w-7xl mx-auto">
+      <div className="flex justify-between items-center px-6 lg:px-8 py-1 max-w-7xl mx-auto">
         <div className="flex items-center">
           <img src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/1785ba901_CHLOGOWebsite.png" alt="Contemporary Homes" className="h-24 w-auto" />
         </div>
