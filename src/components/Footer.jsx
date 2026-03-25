@@ -57,7 +57,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto pt-8 lg:pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 lg:gap-6">
         <p className="text-white/40 text-sm">
-          © 2024 Contemporary Homes Restoration. IICRC Certified Firm.
+          © 2024 Contemporary Homes Restoration. IICRC Certified Firm. CCB#227585
         </p>
         <div className="flex items-center gap-4">
           <div className="flex items-center space-x-3">
