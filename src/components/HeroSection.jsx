@@ -32,7 +32,7 @@ export default function HeroSection() {
           >
             <div className="inline-flex items-center px-4 py-1.5 bg-secondary/10 text-secondary border border-secondary/20 rounded-full text-xs font-bold tracking-widest uppercase mb-8 w-fit">
               <span className="w-2 h-2 bg-secondary rounded-full mr-2 animate-pulse" />
-              Immediate Response
+              24/7 Emergency Response
             </div>
 
             <h1 className="font-headline leading-none mb-8">
