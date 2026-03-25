@@ -70,8 +70,9 @@ export default function Footer() {
             </span>
           </div>
           <span className="text-white/20">·</span>
-          <a href="https://AdHello.ai" target="_blank" rel="noopener noreferrer" className="text-[10px] text-white/40 hover:text-white/70 transition-colors uppercase tracking-widest">
-            Website Designed By AdHello.ai
+          <a href="https://adhello.ai" target="_blank" rel="noopener noreferrer" className="opacity-50 hover:opacity-80 transition-opacity flex items-center gap-2">
+            <span className="text-[10px] text-white/60 uppercase tracking-widest font-bold">Website Designed By</span>
+            <img src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/ed43ad87e_logo-darkcopy.png" alt="AdHello.ai" className="h-5 w-auto" />
           </a>
         </div>
       </div>
