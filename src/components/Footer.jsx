@@ -50,10 +50,7 @@ export default function Footer() {
               Email:{' '}
               <span className="text-white block font-bold mt-1">help@contemporaryhomes.com</span>
             </p>
-            <p className="text-sm text-white/60">
-              HQ:{' '}
-              <span className="text-white block font-bold mt-1">123 Restoration Way, Suite 100</span>
-            </p>
+
           </div>
         </div>
       </div>
