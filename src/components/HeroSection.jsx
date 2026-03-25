@@ -53,11 +53,11 @@ export default function HeroSection() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:1-800-493-7677"
+                href="tel:5033806503"
                 className="px-8 py-4 md:px-10 md:py-5 rounded-full text-base md:text-lg font-bold flex items-center shadow-2xl hover:scale-105 transition-all bg-primary text-white gap-3"
               >
                 <Phone className="w-5 h-5 md:w-6 md:h-6" />
-                Call Now: (800) 493-7677
+                Call Now: (503) 380-6503
               </a>
             </div>
           </motion.div>

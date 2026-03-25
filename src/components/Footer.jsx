@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="space-y-3">
             <p className="text-sm text-white/60">
               Emergency Hotline:{' '}
-              <span className="text-white block font-bold mt-1">(800) 493-7677</span>
+              <span className="text-white block font-bold mt-1">(503) 380-6503</span>
             </p>
             <p className="text-sm text-white/60">
               Email:{' '}

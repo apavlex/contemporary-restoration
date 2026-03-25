@@ -32,7 +32,7 @@ export default function Navbar() {
 
         <div className="flex items-center space-x-4">
           <a
-            href="tel:1-800-493-7677"
+            href="tel:5033806503"
             className="hidden sm:flex items-center px-6 py-2.5 rounded-full font-bold text-sm hover:brightness-110 transition-all shadow-sm bg-primary text-white gap-2"
           >
             <Phone className="w-4 h-4" />
@@ -60,7 +60,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="tel:1-800-493-7677"
+            href="tel:5033806503"
             className="flex sm:hidden items-center justify-center px-6 py-3 rounded-full font-bold text-sm bg-primary text-white gap-2 mt-4"
           >
             <Phone className="w-4 h-4" />
