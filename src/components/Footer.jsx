@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16 mb-14 lg:mb-20">
         <div className="space-y-5 sm:col-span-2 lg:col-span-1">
           <div className="flex items-center">
-            <img src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/0255dff8f_CHLOGOTransparent.png" alt="Contemporary Homes" className="h-14 w-auto brightness-0 invert" />
+            <img src="https://media.base44.com/images/public/69c2dfddddd2bac4ea658d31/0255dff8f_CHLOGOTransparent.png" alt="Contemporary Homes" className="h-44 w-auto brightness-0 invert" />
           </div>
           <p className="text-white/60 text-sm leading-relaxed">
             Professional water damage restoration and mold remediation specialists. Available 24/7 for all emergencies with a commitment to quality.
